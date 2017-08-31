@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Четные и нечетные числа (0 - 200)</title>
+</head>
+<body>
+
+<script>
+
+var arr_Even = [];
+var arr_Uneven = [];
+var str_Even ="";
+var str_Uneven ="";
+
+// распределение четных и нечетных чисел (0 - 1000)
+for(var i = 0, e=0, u=0; i<201; i++){
+
+  if(i%2 == 0){
+    arr_Even[e] = i;
+    str_Even = str_Even + " " + i;
+    e++;
+  }
+  else {
+    arr_Uneven[u] = i;
+    str_Uneven = str_Uneven + " " + i;
+    u++;
+  }
+
+}
+
+document.write("Четные числа:<br />Кол-во = " + arr_Even.length + "<br />Числа - " + str_Even + "<br /><br />");
+document.write("Нечетные числа:<br />Кол-во = " + arr_Uneven.length + "<br />Числа - " + str_Uneven + "<br /><br />");
+
+</script>
+
+</body>
+
+</html>
