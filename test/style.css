@@ -1,0 +1,7 @@
+.test-block div {
+  width: 300px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  border-bottom: solid 2px silver;
+  background-color: Snow;
+}
